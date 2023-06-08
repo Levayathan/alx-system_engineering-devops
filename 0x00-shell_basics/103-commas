@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a --format=commas -v --classify; printf "\n"
+echo -e "$(ls -a --format=commas -v --classify) \n"
