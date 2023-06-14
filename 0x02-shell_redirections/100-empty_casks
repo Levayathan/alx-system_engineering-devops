@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -empty -name ".*" -type f | sed -delete './'
+find . -type d -empty -printf "%P/\n" -o -type f -empty -printf "%P\n"
